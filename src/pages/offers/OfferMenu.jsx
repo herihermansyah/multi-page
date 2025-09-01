@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 
 const OfferMenu = () => {
   return (
-    <div className="flex gap-10 ">
-      <Link className="hover:text-gray-400" to="room">
+    <div className="flex gap-10  ">
+      <Link className="hover:text-[#E62727]" to="room">
         Hotels Rooms
       </Link>
-      <Link className="hover:text-gray-400" to="resto">
+      <Link className="hover:text-[#E62727]" to="resto">
         Restaurant
       </Link>
-      <Link className="hover:text-gray-400" to="wedding">
+      <Link className="hover:text-[#E62727]" to="wedding">
         Weddings
       </Link>
-      <Link className="hover:text-gray-400" to="fitnes">
+      <Link className="hover:text-[#E62727]" to="fitnes">
         Fitnes Center
       </Link>
     </div>

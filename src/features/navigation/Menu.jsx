@@ -10,7 +10,7 @@ const MainNavigation = () => {
     { id: 3, path: "/resto", name: "restaurants & bars" },
   ];
   return (
-    <nav className=" bg-red-700">
+    <nav className=" bg-[#DCDCDC]">
       <Container sx={{ display: "flex", gap: 6, alignItems: "center" }}>
         {menu.map((item) => (
           <React.Fragment key={item.id}>
@@ -21,7 +21,15 @@ const MainNavigation = () => {
               disableRipple
             >
               {" "}
-              <Typography>{item.name}</Typography>
+              <Typography
+                sx={{
+                  ":hover": {
+                    color: "#E62727",
+                  },
+                }}
+              >
+                {item.name}
+              </Typography>
             </Link>
             {item.name === "hotels & resorts" && <Experience />}
           </React.Fragment>

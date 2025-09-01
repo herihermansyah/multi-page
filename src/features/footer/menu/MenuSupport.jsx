@@ -8,13 +8,40 @@ const MenuSupport = () => {
       <Typography>Support</Typography>
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <Link to="#">
-          <Typography sx={{ fontSize: "14px" }}>Investors</Typography>
+          <Typography
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            Investors
+          </Typography>
         </Link>
         <Link to="#">
-          <Typography sx={{ fontSize: "14px" }}>Global Citizenship</Typography>
+          <Typography
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            Global Citizenship
+          </Typography>
         </Link>
         <Link to="#">
-          <Typography sx={{ fontSize: "14px" }}>News</Typography>
+          <Typography
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            News
+          </Typography>
         </Link>
       </Box>
     </Box>

@@ -7,7 +7,7 @@ const MainNavigation = () => {
   return (
     <Box
       sx={{
-        background: "yellow",
+        background: "#F3F2EC",
       }}
     >
       <Logo />

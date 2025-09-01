@@ -21,7 +21,15 @@ export default function GroupedMenu() {
     <div className="py-2">
       <Box sx={{ display: "flex", alignItems: "center" }}>
         <Link className="uppercase flex items-center" onClick={handleClick}>
-          <Typography>Experience</Typography>
+          <Typography
+            sx={{
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            Experience
+          </Typography>
           <ArrowDropDownIcon />
         </Link>
       </Box>
@@ -32,10 +40,28 @@ export default function GroupedMenu() {
         open={open}
         onClose={handleClose}
       >
-        <MenuItem component={Link} to="/wedding" onClick={handleClose}>
+        <MenuItem
+          sx={{
+            ":hover": {
+              color: "#E62727",
+            },
+          }}
+          component={Link}
+          to="/wedding"
+          onClick={handleClose}
+        >
           Weddings
         </MenuItem>
-        <MenuItem component={Link} to="/meeting" onClick={handleClose}>
+        <MenuItem
+          sx={{
+            ":hover": {
+              color: "#E62727",
+            },
+          }}
+          component={Link}
+          to="/meeting"
+          onClick={handleClose}
+        >
           Meetings
         </MenuItem>
       </Menu>

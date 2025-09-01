@@ -5,7 +5,7 @@ import Support from "../features/footer/support/Support";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="mt-20">
       <MenuFooter />
       <Support />
       <FooterCopyRight />

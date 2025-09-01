@@ -7,7 +7,7 @@ import { Container } from "@mui/material";
 
 const MenuFooter = () => {
   return (
-    <div className=" bg-green-700 ">
+    <div className=" bg-[#DCDCDC] ">
       <Container
         sx={{
           display: "flex",

@@ -3,7 +3,7 @@ import React from "react";
 
 const Support = () => {
   return (
-    <div className=" bg-purple-600 ">
+    <div className=" bg-[#F3F2EC] ">
       <Container
         sx={{
           display: "flex",

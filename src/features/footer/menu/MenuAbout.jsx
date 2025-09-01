@@ -8,16 +8,52 @@ const MenuAbout = () => {
       <Typography>About Hotel</Typography>
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
         <Link to="#">
-          <Typography sx={{ fontSize: "14px" }}>About Us</Typography>
+          <Typography
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            About Us
+          </Typography>
         </Link>
         <Link to="#">
-          <Typography sx={{ fontSize: "14px" }}>Our Hotel Brands</Typography>
+          <Typography
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            Our Hotel Brands
+          </Typography>
         </Link>
         <Link to="#">
-          <Typography sx={{ fontSize: "14px" }}>Residence</Typography>
+          <Typography
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            Residence
+          </Typography>
         </Link>
         <Link to="#">
-          <Typography sx={{ fontSize: "14px" }}>Contact Us</Typography>
+          <Typography
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                color: "#E62727",
+              },
+            }}
+          >
+            Contact Us
+          </Typography>
         </Link>
       </Box>
     </Box>

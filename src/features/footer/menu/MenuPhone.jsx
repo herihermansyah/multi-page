@@ -33,6 +33,12 @@ const MenuPhone = () => {
             color="black"
             size="small"
             startIcon={<AppleIcon />}
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                background: "#E62727",
+              },
+            }}
           >
             Apple
           </Button>
@@ -41,19 +47,25 @@ const MenuPhone = () => {
             color="black"
             size="small"
             startIcon={<ShopIcon />}
+            sx={{
+              fontSize: "14px",
+              ":hover": {
+                background: "#E62727",
+              },
+            }}
           >
             Playstore
           </Button>
         </Box>
 
         <Box sx={{ display: "flex", gap: 3 }}>
-          <Link>
+          <Link className="hover:text-[#E62727]">
             <InstagramIcon />
           </Link>
-          <Link>
+          <Link className="hover:text-[#E62727]">
             <FacebookIcon />
           </Link>
-          <Link>
+          <Link className="hover:text-[#E62727]">
             <WhatsAppIcon />
           </Link>
         </Box>
