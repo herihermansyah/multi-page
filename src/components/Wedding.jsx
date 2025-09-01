@@ -32,7 +32,7 @@ export default function Wedding() {
       id: 4,
       image:
         "https://images.unsplash.com/photo-1622277957185-d3d932982c36?q=80&w=831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      name: "water melon",
+      name: "photo",
       desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid commodi reprehenderit impedit molestiae repellat omnis nostrum enim, provident quo assumenda magnam velit cumque ipsa fugiat? Consequuntur consequatur unde incidunt vel.",
     },
   ];
